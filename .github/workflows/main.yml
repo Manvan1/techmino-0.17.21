@@ -2,7 +2,7 @@ name: Techmino CI
 
 on:
   push:
-    branches: [main, ci*]
+    branches: [main, ci*, techmino-0.17.21]
     tags: [pre*, v*]
   pull_request:
     branches: [main]
