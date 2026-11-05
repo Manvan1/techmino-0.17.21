@@ -540,7 +540,7 @@ end
 
 table.insert(_LOADTIMELIST_,("Load Files: %.3fs"):format(TIME()-_LOADTIME_))
 
-require'mod_manager'
+-- require'mod_manager'
 
 -- First start
 FIRSTLAUNCH=STAT.run==0
